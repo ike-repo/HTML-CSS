@@ -17,30 +17,30 @@
             <div class="box"><br>
                 <div>
                     <label for="name-box">Name</label><br>
-                    <input class="info" type="text" id="name-box" placeholder="enter your name">
+                    <input class="info" type="text" id="name-box" name="Name" placeholder="enter your name">
                 </div><br>
             </div>
             <div class="box">
                 <label for="age-box">Age</label><br>
-                <input class="info" type="number" id="age-box" min=18 max=65 placeholder="age">
+                <input class="info" type="number" id="age-box" name="Age" min=18 max=65 placeholder="age">
             </div><br>
             <div class="box">
                 <label for="email-box">Email</label><br>
-                <input class="info" type="email" id="email-box" placeholder="enter your Email">
+                <input class="info" type="email" name="Email" id="email-box" placeholder="enter your Email">
             </div><br>
             <div class="box">
                 <label for="drodown-box">Content Type</label><br>
                 <select class="info">
-                    <option value="Movies">Movie</option>
-                    <option value="Series" selected>Series</option>
+                    <option value="Movies" name="entertainment">Movie</option>
+                    <option value="Series" name="entertainment"selected>Series</option>
                 </select>
             </div><br>
             <div class="box">Movie Type <br>
-                <input type="checkbox" class="icon">
+                <input type="checkbox" name="Movie Type" class="icon">
                 <label for="t-comedy">Comedy</label><br>
-                <input type="checkbox" class="icon">
+                <input type="checkbox" name="Movie Type" class="icon">
                 <label for="t-action">Action</label><br>
-                <input type="checkbox" class="icon">
+                <input type="checkbox" name="Movie Type" class="icon">
                 <label for="t-romance">Romance</label><br>
             </div><br>
             <div class="box">Gender<br>
@@ -49,7 +49,7 @@
                 <input type="radio" name="gender" value="Other" class="icon">Other<br>
             </div><br>
             <div class="box" id="text-area">Feed back<br><br>
-                <textarea rows="4" cols="50" placeholder="any comment"></textarea>
+                <textarea rows="4" cols="50" name="comments" placeholder="any comment"></textarea>
             </div>
             <div>
                 <button id="submit">Submit</button>
