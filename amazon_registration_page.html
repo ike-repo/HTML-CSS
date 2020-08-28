@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="amazon_registration_page.css">
+    <title>myAmazon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="/Users/ike/Desktop/CW/5_HTML-CSS/20200822_recap/images/amazon-logo-86547BFB54-seeklogo.com.png" alt="amazonLogo" width=100vh>
+        <form action="result.html" id="amazon-registration" method="GET">
+    </div>
+    <div class="registration">
+        <div class="form-box">
+            <div class="form-title">
+                <h2>Create account</h2>
+            </div>
+            <div class="user-input">
+                <label for="name">Your name</label><br>
+                <input type="text" id="name" name="input-name">
+            </div>
+            <div class="user-input">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="input-email">
+            </div>
+            <div class="user-input" id="first-pass" name="pass">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="input-pass" placeholder="At least 6 characters">
+                <div id="info">
+                    <span id="icon">i </span> Passwords must be at least 6 characters.</div>
+            </div>
+
+            <div class="user-input" name="pass">
+                <label for="re-password">Re-enter password</label><br>
+                <input type="password" id="re-password" name="input-repass">
+            </div>
+            <div>
+                <span class="user-input">
+                    <button id="submit" value="Create your Amazon account">Create your Amazon account 
+                <span class="button-text" id="click-on" aria-hidden="true"></span>
+                </button><br>
+            </div>
+            <div>
+                <span class="instructions">
+                By creating an account, you agree to Amazon's
+                <a class="instructions" href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_register_notification_condition_of_use?ie=UTF8&nodeId=508088">Conditions
+                    of Use</a> and
+                <a class="instructions" href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_register_notification_privacy_notice?ie=UTF8&nodeId=468496>Privacy Notice">Privacy
+                    Notice</a>.
+                </span>
+            </div>
+            <hr>
+            <div class="instructions">
+                Already have an account? <a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&prevRID=6NDNNC1FPCF7TTCNFWQB&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Sign-in</a>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+
+</html>
